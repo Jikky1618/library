@@ -1,11 +1,6 @@
 ---
 data:
-  libraryCategories:
-  - name: verify
-    pages:
-    - icon: ':warning:'
-      path: verify/aplusb.text.cpp
-      title: verify/aplusb.text.cpp
+  libraryCategories: []
   verificationCategories:
   - name: verify
     pages:
