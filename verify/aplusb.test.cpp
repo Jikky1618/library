@@ -1,6 +1,6 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/aplusb"
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
