@@ -23,13 +23,6 @@ jobs:
     - name: Install dependencies
       run: pip3 install -U online-judge-verify-helper
 
-    # required by cargo-udeps
-    - name: Set up Rust (nightly)
-      run: |
-        rustup set profile minimal
-        rustup install nightly
-        rustup override set nightly
-
     - name: Run tests
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
