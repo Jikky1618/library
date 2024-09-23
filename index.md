@@ -15,11 +15,6 @@ data:
       path: library/util/128bit.hpp
       title: library/util/128bit.hpp
   verificationCategories:
-  - name: verify
-    pages:
-    - icon: ':x:'
-      path: verify/aplusb.test.cpp
-      title: verify/aplusb.test.cpp
   - name: verify/yosupo
     pages:
     - icon: ':heavy_check_mark:'
